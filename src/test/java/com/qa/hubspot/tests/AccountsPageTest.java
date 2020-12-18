@@ -22,7 +22,7 @@ public class AccountsPageTest extends BaseTest {
 		accountsPage = loginPage.doLogin(prop.getProperty("username"), prop.getProperty("password"));
 	}
 
-	@Description("accounts Page Title Test")
+	@Description("Accounts Page Title Test")
 	@Severity(SeverityLevel.NORMAL)
 	@Test(priority = 2)
 	public void accountsPageTitleTest() {
