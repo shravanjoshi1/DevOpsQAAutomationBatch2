@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TN Test automtion regression suite" duration-ms="397325" started-at="2020-12-21T04:55:56Z" finished-at="2020-12-21T05:02:33Z">
+    <groups>
+    </groups>
+    <test name="AccountsPage Test" duration-ms="271331" started-at="2020-12-21T04:55:56Z" finished-at="2020-12-21T05:00:27Z">
+      <class name="com.qa.hubspot.tests.AccountsPageTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.qa.hubspot.tests.AccountsPageTest@4abf3f0]" name="setUp" is-config="true" duration-ms="101165" started-at="2020-12-21T04:55:56Z" finished-at="2020-12-21T04:57:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AccountsPageSetUp()[pri:0, instance:com.qa.hubspot.tests.AccountsPageTest@4abf3f0]" name="AccountsPageSetUp" is-config="true" duration-ms="80284" started-at="2020-12-21T04:57:37Z" finished-at="2020-12-21T04:58:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccountsPageSetUp -->
+        <test-method status="PASS" signature="verifyAccountsPageHeaderTest()[pri:1, instance:com.qa.hubspot.tests.AccountsPageTest@4abf3f0]" name="verifyAccountsPageHeaderTest" duration-ms="21238" started-at="2020-12-21T04:58:58Z" finished-at="2020-12-21T04:59:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAccountsPageHeaderTest -->
+        <test-method status="PASS" signature="accountsPageTitleTest()[pri:2, instance:com.qa.hubspot.tests.AccountsPageTest@4abf3f0]" name="accountsPageTitleTest" duration-ms="4970" started-at="2020-12-21T04:59:19Z" finished-at="2020-12-21T04:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountsPageTitleTest -->
+        <test-method status="PASS" signature="verifyMyAccountSectionsCountTest()[pri:3, instance:com.qa.hubspot.tests.AccountsPageTest@4abf3f0]" name="verifyMyAccountSectionsCountTest" duration-ms="2568" started-at="2020-12-21T04:59:24Z" finished-at="2020-12-21T04:59:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyAccountSectionsCountTest -->
+        <test-method status="PASS" signature="verifyMyAccountSectionsListTest()[pri:4, instance:com.qa.hubspot.tests.AccountsPageTest@4abf3f0]" name="verifyMyAccountSectionsListTest" duration-ms="4436" started-at="2020-12-21T04:59:27Z" finished-at="2020-12-21T04:59:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMyAccountSectionsListTest -->
+        <test-method status="PASS" signature="searchTest()[pri:5, instance:com.qa.hubspot.tests.AccountsPageTest@4abf3f0]" name="searchTest" duration-ms="49162" started-at="2020-12-21T04:59:32Z" finished-at="2020-12-21T05:00:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.AccountsPageTest@4abf3f0]" name="tearDown" is-config="true" duration-ms="6428" started-at="2020-12-21T05:00:21Z" finished-at="2020-12-21T05:00:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hubspot.tests.AccountsPageTest -->
+    </test> <!-- AccountsPage Test -->
+    <test name="ProductInfoPage Test" duration-ms="397325" started-at="2020-12-21T04:55:56Z" finished-at="2020-12-21T05:02:33Z">
+      <class name="com.qa.hubspot.tests.ProductInfoTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.qa.hubspot.tests.ProductInfoTest@1603dc2f]" name="setUp" is-config="true" duration-ms="97727" started-at="2020-12-21T04:55:57Z" finished-at="2020-12-21T04:57:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[80]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="productInfoSetUp()[pri:0, instance:com.qa.hubspot.tests.ProductInfoTest@1603dc2f]" name="productInfoSetUp" is-config="true" duration-ms="81656" started-at="2020-12-21T04:57:34Z" finished-at="2020-12-21T04:58:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productInfoSetUp -->
+        <test-method status="PASS" signature="ProductInforPageTitleTest_iMac()[pri:0, instance:com.qa.hubspot.tests.ProductInfoTest@1603dc2f]" name="ProductInforPageTitleTest_iMac" duration-ms="99847" started-at="2020-12-21T04:58:56Z" finished-at="2020-12-21T05:00:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ProductInforPageTitleTest_iMac -->
+        <test-method status="PASS" signature="verifyProductInfoTest_MacBook()[pri:0, instance:com.qa.hubspot.tests.ProductInfoTest@1603dc2f]" name="verifyProductInfoTest_MacBook" duration-ms="53718" started-at="2020-12-21T05:00:39Z" finished-at="2020-12-21T05:01:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductInfoTest_MacBook -->
+        <test-method status="PASS" signature="verifyProductInfoTest_iMac()[pri:0, instance:com.qa.hubspot.tests.ProductInfoTest@1603dc2f]" name="verifyProductInfoTest_iMac" duration-ms="56400" started-at="2020-12-21T05:01:33Z" finished-at="2020-12-21T05:02:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyProductInfoTest_iMac -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.ProductInfoTest@1603dc2f]" name="tearDown" is-config="true" duration-ms="3502" started-at="2020-12-21T05:02:30Z" finished-at="2020-12-21T05:02:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.hubspot.tests.ProductInfoTest -->
+    </test> <!-- ProductInfoPage Test -->
+  </suite> <!-- TN Test automtion regression suite -->
+</testng-results>
